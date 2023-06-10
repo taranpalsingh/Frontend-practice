@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Drag and Drop Feature</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-size: 35px; margin-bottom: 10px;">What should be allowed in a Library</h1>
+        <h4 style="font-size: 25px; ">Drag and drop the following</h4>
+
+        <div class="chip-container" id="chip-container">
+            <!-- <div class="chip chip2" id="chip2" class="draggable-cell" draggable="true" ondragstart="dragstart_handler(event)">Litter</div>
+            <div class="chip chip4" id="chip4" class="draggable-cell" draggable="true" ondragstart="dragstart_handler(event)">Litter</div>     -->
+        </div>
+
+        <div class="drop-container">
+            <div
+                id="target1"
+                class="target target-dos"
+                ondrop="drop_handler(event)"
+                ondragover="dragover_handler(event)">
+                Do's
+            </div>
+            <div
+                id="target2"
+                class="target target-donts"
+                ondrop="drop_handler(event)"
+                ondragover="dragover_handler(event)">
+                Dont's
+            </div>
+
+        </div>
+        
+    </div>
+
+</body>
+<script src="./index.js"></script>
+</html>
+
+        <!-- <div
+            class="drop-class"
+            id="target"
+            ondrop="drop_handler(event)"
+            ondragover="dragover_handler(event)">
+            Drop Zone
+        </div> -->
+
+
+        <!-- <div id="p1" class="draggable-cell" draggable="true" ondragstart="dragstart_handler(event)">
+            <p>
+                This element is draggable.
+            </p>
+        </div> -->
