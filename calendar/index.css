@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+    margin: 5vh auto;
+    /* background-color: rgb(0,0,0,0.2); */
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#year-display {
+    font-size: 22px;
+}
+
+.button-group {
+
+}
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.col {
+    width: 100px;
+    height: 100%;
+}
+
+.days-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.days {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.day-name {
+    color: blue;
+    font-size: 16px;
+    margin: 2px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.calendar {
+
+}
+
+.day-cell {
+    width: 80%;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.day-cell:hover {
+    background-color: rgb(127,255,212,0.2);
+    /* opacity: 0.2; */
+}
+
+.padding-day-cell {
+    /* background-color: gray; */
+}
