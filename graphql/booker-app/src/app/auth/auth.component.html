@@ -1,0 +1,22 @@
+<!-- <div class="hello">wjdbwjdjwdnwdj</div> -->
+<div class="todos-container">
+    <div class="todo" *ngFor="let todo of todos">
+        <mat-card class="example-card">
+            <mat-card-header class="header">
+              <mat-card-title>{{todo.description}}</mat-card-title>
+              <div class="isDone" (click)="todoStatusUpdated(todo.id)"></div>
+            </mat-card-header>
+        </mat-card> 
+        <div class="description">
+        </div>
+    </div>
+</div>
+
+<input type="text" [(ngModel)]="newDescription" name="description" />
+<button (click)="addNewTask()">Add new task</button>
+<!-- <mat-card-content>
+    <p>
+        {{todo.description}}
+    </p>
+</mat-card-content>
+-->

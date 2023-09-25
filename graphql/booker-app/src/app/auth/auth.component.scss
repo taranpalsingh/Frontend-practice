@@ -1,0 +1,20 @@
+.isDone {
+    width: 20px;
+    height: 20px;
+    // margin-left: ;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.example-card {
+    width: 300px;
+    border: 1px solid #00000020;
+    margin: 20px;
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
